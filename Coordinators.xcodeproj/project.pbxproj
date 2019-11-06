@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3375DED2237372D4001DEA70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3375DED1237372D4001DEA70 /* AppDelegate.swift */; };
-		3375DED4237372D4001DEA70 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3375DED3237372D4001DEA70 /* SceneDelegate.swift */; };
 		3375DED6237372D4001DEA70 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3375DED5237372D4001DEA70 /* FirstViewController.swift */; };
 		3375DED8237372D4001DEA70 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3375DED7237372D4001DEA70 /* SecondViewController.swift */; };
 		3375DEDB237372D4001DEA70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3375DED9237372D4001DEA70 /* Main.storyboard */; };
@@ -21,7 +20,6 @@
 /* Begin PBXFileReference section */
 		3375DECE237372D4001DEA70 /* Coordinators.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coordinators.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3375DED1237372D4001DEA70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3375DED3237372D4001DEA70 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3375DED5237372D4001DEA70 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		3375DED7237372D4001DEA70 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		3375DEDA237372D4001DEA70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -63,7 +61,6 @@
 			isa = PBXGroup;
 			children = (
 				3375DED1237372D4001DEA70 /* AppDelegate.swift */,
-				3375DED3237372D4001DEA70 /* SceneDelegate.swift */,
 				3375DEE723737389001DEA70 /* TabBarController.swift */,
 				3375DED5237372D4001DEA70 /* FirstViewController.swift */,
 				3375DED7237372D4001DEA70 /* SecondViewController.swift */,
@@ -152,7 +149,6 @@
 				3375DED2237372D4001DEA70 /* AppDelegate.swift in Sources */,
 				3375DEEA23737535001DEA70 /* HasIdentifier.swift in Sources */,
 				3375DEE823737389001DEA70 /* TabBarController.swift in Sources */,
-				3375DED4237372D4001DEA70 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
