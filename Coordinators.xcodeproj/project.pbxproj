@@ -14,6 +14,8 @@
 		3375DEDB237372D4001DEA70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3375DED9237372D4001DEA70 /* Main.storyboard */; };
 		3375DEDD237372D7001DEA70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3375DEDC237372D7001DEA70 /* Assets.xcassets */; };
 		3375DEE0237372D7001DEA70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3375DEDE237372D7001DEA70 /* LaunchScreen.storyboard */; };
+		3375DEE823737389001DEA70 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3375DEE723737389001DEA70 /* TabBarController.swift */; };
+		3375DEEA23737535001DEA70 /* HasIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3375DEE923737535001DEA70 /* HasIdentifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		3375DEDC237372D7001DEA70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3375DEDF237372D7001DEA70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3375DEE1237372D7001DEA70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3375DEE723737389001DEA70 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		3375DEE923737535001DEA70 /* HasIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HasIdentifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +64,14 @@
 			children = (
 				3375DED1237372D4001DEA70 /* AppDelegate.swift */,
 				3375DED3237372D4001DEA70 /* SceneDelegate.swift */,
+				3375DEE723737389001DEA70 /* TabBarController.swift */,
 				3375DED5237372D4001DEA70 /* FirstViewController.swift */,
 				3375DED7237372D4001DEA70 /* SecondViewController.swift */,
 				3375DED9237372D4001DEA70 /* Main.storyboard */,
 				3375DEDC237372D7001DEA70 /* Assets.xcassets */,
 				3375DEDE237372D7001DEA70 /* LaunchScreen.storyboard */,
 				3375DEE1237372D7001DEA70 /* Info.plist */,
+				3375DEE923737535001DEA70 /* HasIdentifier.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -144,6 +150,8 @@
 				3375DED8237372D4001DEA70 /* SecondViewController.swift in Sources */,
 				3375DED6237372D4001DEA70 /* FirstViewController.swift in Sources */,
 				3375DED2237372D4001DEA70 /* AppDelegate.swift in Sources */,
+				3375DEEA23737535001DEA70 /* HasIdentifier.swift in Sources */,
+				3375DEE823737389001DEA70 /* TabBarController.swift in Sources */,
 				3375DED4237372D4001DEA70 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

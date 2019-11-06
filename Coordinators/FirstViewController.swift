@@ -10,11 +10,15 @@ import UIKit
 
 class FirstViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    let firstVar: String
+
+    required init?(coder: NSCoder) {
+        fatalError()
     }
-
-
+    
+    init?(coder: NSCoder, firstVar: String) {
+        self.firstVar = firstVar
+        super.init(coder: coder)
+    }
 }
 

@@ -10,11 +10,15 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    let secondVar: String
+    
+    required init?(coder: NSCoder) {
+        fatalError()
     }
-
-
+    
+    init?(coder: NSCoder, secondVar: String) {
+        self.secondVar = secondVar
+        super.init(coder: coder)
+    }
 }
 
