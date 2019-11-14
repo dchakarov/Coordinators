@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TabBarController: UITabBarController, HasIdentifier {
+class TabBarController: UITabBarController {
     
     let mainVar: (first: String, second: String)
     

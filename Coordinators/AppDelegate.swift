@@ -15,9 +15,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
         window = UIWindow(frame: UIScreen.main.bounds)
-        let tabBarController = storyboard.instantiateViewController(identifier: TabBarController.identifier, creator: { coder in
+        let tabBarController = storyboard.instantiateInitialViewController { coder in
             TabBarController(coder: coder, mainVar: (first: "Hello", second: "World"))
-        })
+        }
         window?.rootViewController = tabBarController
         return true
     }
